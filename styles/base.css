@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+header h1 {
+    text-align: center;
+    margin-block: 2rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+    padding-block: 2rem;
+
+    font-size: 26px;
+    
+    
+    background-color: #174E70;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    border-radius: 10%;
+    margin-block: 1rem;
+}
+
+main .card {
+    border: 1px solid #DDDDDD;
+    border-radius: 1rem;
+
+    
+}
+
+main .card h2{
+    color: white;
+    background-color: #174E70;
+
+    padding: 1rem;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+main .card .about-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+main .card .about-me p {
+    padding-inline: 2rem;
+}
+
+main .card .about-me img {
+    width: 300px;
+    height: 300px;
+    margin-block: 1rem;
+    margin-inline: 1rem;
+}
+
+main .card .about-my-city {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+main .flag {
+    text-align: center;
+}
+
+main .card h3 {
+    text-align: center;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    padding: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+main .card .about-my-city img {
+    width: 250px;
+    height: 200px;
+}
+
+main .card .resources{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+main .card .resources li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #174E70;
+    color: white;
+
+    font-size: 1rem;
+    padding-block: 2rem;
+
+}
