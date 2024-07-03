@@ -1,11 +1,5 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const lastModifiedDate = new Date(document.lastModified);
-    const secondParagraph = document.querySelector('p:nth-of-type(2)');
-    if(secondParagraph) {
-        secondParagraph.textContent = `Last Modified Date: ${lastModifiedDate}`;
-    }
-});
+const copyrightYear = document.querySelector("#current-year");
+const lastModified = document.querySelector("#last-modified");
 
-const currentyear = document.querySelector("#currentyear");
-const today = new Date();
-currentyear.innerHTML = today.getFullYear();
+copyrightYear.innerHTML = `` + new Date().getFullYear();
+lastModified.innerHTML = `Last Modification: ` + document.lastModified;
