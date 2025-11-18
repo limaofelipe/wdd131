@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Fortaleza - Ceará</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals assignment for Felipe Lima">
+    <meta name="author" content="Felipe Lima">
+
+    <link rel="stylesheet" href="./styles/place.css">
+    <link rel="stylesheet" href="./styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body class="montserrat-400">
+<header>
+    <h1>Fortaleza - Ceará</h1>
+</header>
+<main>
+    <div class="hero">
+        <picture>
+            <source srcset="./images/fortaleza.webp" media="(min-width: 600px)">
+            <img src="./images/fortaleza.webp" alt="Fortaleza beach" width="500" height="750">
+        </picture>
+        <div class="container">
+            <div class="place-data">
+                <h2>Data</h2>
+                <div class="data">
+                    <span class="data-label">Size:</span>
+                    <span class="data-value">120.85 sq mi</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Population:</span>
+                    <span class="data-value">2,687 milions</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Languages:</span>
+                    <span class="data-value">Brazilian Portuguese</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Time Zone:</span>
+                    <span class="data-value">UTC-03:00</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Lighthouses:</span>
+                    <span class="data-value">2</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Famous For:</span>
+                    <span class="data-value">Beira mar Beach</span>
+                </div>
+            </div>
+            <div class="place-weather">
+                <div class="weather-title">
+                    <h2>Weather</h2>
+                    <img src="./images/weather-icon.svg" alt="The Weather">
+                </div>
+                <div class="data">
+                    <span class="data-label">Temperature:</span>
+                    <span id="temperature" class="data-value">N/A</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Conditions:</span>
+                    <span class="data-value">Mostly Cloudy</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Wind:</span>
+                    <span id="wind-speed" class="data-value">N/A</span>
+                </div>
+                <div class="data">
+                    <span class="data-label">Wind Chill:</span>
+                    <span id="wind-chill" class="data-value">N/A</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>&copy;<span id="current-year"></span> | Felipe Lima | Brazil </p>
+    <p id="last-modified"></p>
+</footer>
+
+<script src="./scripts/getdates.js" defer></script>
+<script src="./scripts/place.js" defer></script>
+</body>
+</html>

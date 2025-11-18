@@ -1,0 +1,12 @@
+@media (min-width: 600px) {
+    .place-weather h2::after {
+        content: url(./images/weather-icon.svg);
+        padding-left: 1rem;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 7rem;
+    }
+}
