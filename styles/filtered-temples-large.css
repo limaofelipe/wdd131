@@ -1,0 +1,94 @@
+@media (min-width: 901px) {
+  button{
+    display: none;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 1.5rem;
+  }
+
+  .navigation {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+  }
+
+  .navigation a{
+    display: block;
+  }
+
+  #menu {
+    display: none;
+    opacity: 0    ;
+  }
+
+  /* CSS para estilizar os cards conforme a imagem */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+
+        /* Container Grid para os cards */
+        .res-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Estilo do Cartão individual */
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center; /* Centraliza o texto */
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card h3 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        /* Estilizando os parágrafos de dados */
+        .card p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Rótulos coloridos (Location, Dedicated, Size) */
+        .label {
+            color: #4a0080; /* Roxo escuro similar ao exemplo */
+            font-weight: bold;
+        }
+
+        /* Estilo da imagem */
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover; /* Garante que a imagem preencha sem distorcer */
+            margin-top: 10px;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+        }
+  
+}
