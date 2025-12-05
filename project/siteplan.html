@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Felipe Lima</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals assigment for Felipe Lima">
+    <meta name="author" content="Felipe Lima">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/site-plan.css">
+    
+    <link rel="stylesheet" href="./styles/site-plan-large.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Urban Brew</h1>
+            <h2>Site Plan</h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-card">
+            <h3>Site Name</h3>
+            <div class="content-block">
+                <p class="primary-text">Urban Brew</p>
+                <p class="description">
+                    I chose "Urban Brew" because it balances the modern, city-centric lifestyle with the artisanal craft of coffee making. 
+                    It implies a place that is convenient for professionals yet high-quality enough for enthusiasts.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h3>Site Purpose</h3>
+            <div class="content-block">
+                <p class="description">
+                    The website will be a single-page application designed to showcase the coffee shop's brand and products. 
+                    It will include a 'Hero' section with a call-to-action, an informational section about the shop's amenities 
+                    (like Wi-Fi and beans quality), a visual menu gallery displaying items and prices using CSS Grid, 
+                    and a footer containing the location, hours of operation, and social media links.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h3>Scenarios</h3>
+            <div class="scenarios-grid">
+                <div class="scenario-item">
+                    <h4>Target Audience Question 1:</h4>
+                    <p class="question">"Do you have options for vegans and can I work there with my laptop?"</p>
+                    <p class="answer">
+                        <strong>Answer:</strong> The 'Amenities' section will explicitly list free high-speed Wi-Fi 
+                        and our selection of alternative milks (Oat, Almond, Soy) to reassure remote workers and vegans.
+                    </p>
+                </div>
+                <div class="scenario-item">
+                    <h4>Target Audience Question 2:</h4>
+                    <p class="question">"Where are you located and are you open on Sunday mornings?"</p>
+                    <p class="answer">
+                        <strong>Answer:</strong> The Footer will be prominent on every view, containing the address 
+                        (with a map link) and a clear list of operating hours for every day of the week.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h3>Color Schema</h3>
+            <p class="description">
+                The palette is chosen to evoke the warmth of roasted coffee, the texture of steamed milk, and natural freshness.
+            </p>
+            <div class="color-palette">
+                <div class="color-box">
+                    <div class="swatch" style="background-color: #3E2723; color: white;">#3E2723</div>
+                    <div class="color-info">
+                        <span class="color-name">Coffee Bean (Primary)</span>
+                        <span class="color-usage">Headings, Footer, Borders</span>
+                    </div>
+                </div>
+                <div class="color-box">
+                    <div class="swatch" style="background-color: #D7CCC8; color: #3E2723;">#D7CCC8</div>
+                    <div class="color-info">
+                        <span class="color-name">Oat Cream (Secondary)</span>
+                        <span class="color-usage">Backgrounds, Cards</span>
+                    </div>
+                </div>
+                <div class="color-box">
+                    <div class="swatch" style="background-color: #2E7D32; color: white;">#2E7D32</div>
+                    <div class="color-info">
+                        <span class="color-name">Fresh Leaf (Accent)</span>
+                        <span class="color-usage">Buttons, Links, Highlights</span>
+                    </div>
+                </div>
+                <div class="color-box">
+                    <div class="swatch" style="background-color: #FFF8E1; color: #3E2723; border: 1px solid #ddd;">#FFF8E1</div>
+                    <div class="color-info">
+                        <span class="color-name">Paper White (Background)</span>
+                        <span class="color-usage">Main Body Background</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h3>Typography</h3>
+            <div class="typography-grid">
+                <div class="font-demo">
+                    <h4 class="font-label">Headings (Serif)</h4>
+                    <p class="font-name" style="font-family: 'Playfair Display', serif;">Playfair Display</p>
+                    <p class="font-example" style="font-family: 'Playfair Display', serif;">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-usage">Used for: Main Headings (H1-H3), Navigation Links</p>
+                </div>
+                <div class="font-demo">
+                    <h4 class="font-label">Body Text (Sans-Serif)</h4>
+                    <p class="font-name" style="font-family: 'Lato', sans-serif;">Lato</p>
+                    <p class="font-example" style="font-family: 'Lato', sans-serif;">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-usage">Used for: Paragraphs, Menu Descriptions, Footer info</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h3>Wireframes</h3>
+            
+            <div class="wireframe-container">
+                <h4>Mobile View</h4>
+                <p class="description">Vertical scrolling layout with stacked elements.</p>
+                
+                <div class="wf-phone">
+                    <div class="wf-notch"></div>
+                    <div class="wf-header">
+                        <div class="wf-logo"></div>
+                        <div class="wf-menu-icon"></div>
+                    </div>
+                    <div class="wf-hero">
+                        <span>HERO IMG</span>
+                        <div class="wf-button">CTA</div>
+                    </div>
+                    <div class="wf-content-box">
+                        <div class="wf-line"></div>
+                        <div class="wf-line short"></div>
+                    </div>
+                    <div class="wf-grid-mobile">
+                        <div class="wf-item"></div>
+                        <div class="wf-item"></div>
+                        <div class="wf-item"></div>
+                    </div>
+                    <div class="wf-footer"></div>
+                </div>
+            </div>
+
+            <div class="wireframe-container">
+                <h4>Desktop View</h4>
+                <p class="description">Wide layout with navigation bar and grid menu.</p>
+                
+                <div class="wf-desktop">
+                    <div class="wf-browser-bar">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="wf-header">
+                        <div class="wf-logo"></div>
+                        <div class="wf-nav-links">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="wf-body">
+                        <div class="wf-hero">
+                            <span>HERO IMAGE</span>
+                            <div class="wf-button">ORDER ONLINE</div>
+                        </div>
+                        <div class="wf-main-layout">
+                            <div class="wf-sidebar">
+                                <div class="wf-line"></div>
+                                <div class="wf-line"></div>
+                                <div class="wf-line"></div>
+                            </div>
+                            <div class="wf-grid-desktop">
+                                <div class="wf-item"></div>
+                                <div class="wf-item"></div>
+                                <div class="wf-item"></div>
+                                <div class="wf-item"></div>
+                            </div>
+                        </div>
+                        <div class="wf-footer"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Urban Brew Site Plan</p>
+    </footer>
+
+</body>
+</html>
