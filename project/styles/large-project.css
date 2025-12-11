@@ -1,0 +1,81 @@
+
+.navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.nav-links {
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.amenities, .menu-section, .contact-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1200&q=80');
+    min-height: 60vh;
+    padding: 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+
+.cta-button {
+    width: auto;
+    font-size: 1.1rem;
+}
+
+.amenities-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.amenity-card {
+    flex: 1 1 300px;
+    transition: transform 0.3s ease;
+}
+
+.amenity-card:hover {
+    transform: translateY(-10px);
+}
+
+.filters {
+    justify-content: center;
+}
+
+.filters button {
+    flex: initial;
+    padding: 0.5rem 2rem;
+}
+
+.menu-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactForm {
+    width: 100%;
+    max-width: 600px;
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}

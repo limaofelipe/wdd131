@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Final Project Felipe Lima</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Final Project of Felipe Lima">
+    <meta name="author" content="Felipe Lima">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/project.css">
+    <link rel="stylesheet" href="./styles/large-project.css" media="(min-width: 768px)">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Urban Brew</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Wake Up to Better Coffee</h1>
+                <p>Artisan roasted beans, cozy atmosphere, and the fastest Wi-Fi in town.</p>
+                <a href="./menu.html" class="cta-button">View Menu</a>
+            </div>
+        </section>
+
+        <section class="amenities">
+            <h2>Why Choose Urban Brew?</h2>
+            <div class="amenities-grid">
+                <article class="amenity-card">
+                    <h3>High-Speed Wi-Fi</h3>
+                    <p>Perfect for remote work or studying sessions.</p>
+                </article>
+                <article class="amenity-card">
+                    <h3>Premium Beans</h3>
+                    <p>Sourced ethically from the best growers worldwide.</p>
+                </article>
+                <article class="amenity-card">
+                    <h3>Cozy Space</h3>
+                    <p>Designed for comfort, conversation, and creativity.</p>
+                </article>
+            </div>
+            <div class="shop-image-container">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" 
+                     alt="Interior of Urban Brew Coffee Shop" 
+                     loading="lazy" 
+                     width="800" height="500">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="current-year"></span> Felipe Lima, Brazil</p>
+        <p>©<span id="last-modified"></span></p>
+        
+    </footer>
+    
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/getdates.js"></script>
+</body>
+</html>

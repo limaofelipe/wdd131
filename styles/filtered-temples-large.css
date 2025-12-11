@@ -17,12 +17,7 @@
   .navigation {
     margin: 10px;
     padding: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: white;
-  }
+ }
 
   .navigation a{
     display: block;

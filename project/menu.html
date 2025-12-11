@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Brew | Menu</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Urban Brew ☕</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <h2>Our Selection</h2>
+            <div id="welcome-message"></div> <div class="filters">
+                <button onclick="filterMenu('all')">All</button>
+                <button onclick="filterMenu('coffee')">Coffee</button>
+                <button onclick="filterMenu('pastry')">Pastry</button>
+            </div>
+
+            <div id="menu-grid" class="menu-grid">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Urban Brew. All rights reserved.</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

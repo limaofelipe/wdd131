@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Brew | Contact</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Urban Brew ☕</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Join Our Club</h2>
+            <p>Sign up for updates and get a discount on your next visit.</p>
+            
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="preference">Favorite Drink:</label>
+                    <select id="preference" name="preference">
+                        <option value="latte">Latte</option>
+                        <option value="espresso">Espresso</option>
+                        <option value="coldbrew">Cold Brew</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="cta-button">Join Club</button>
+            </form>
+            <p id="form-feedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Urban Brew. All rights reserved.</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
